@@ -1,0 +1,34 @@
+body {
+    background:linear-gradient(blue,grey);
+    color: yellow;
+}
+
+.choices{display:flex;
+        justify-content:space-evenly;
+        }
+
+.planet_choice1{display:flex;
+        justify-content:space-evenly;}
+
+.alien{display:none;
+      width:500px;
+      justify-content:space-evenly;}
+
+.planet_choice2{display:flex;
+        justify-content:space-evenly;
+               display:none;}
+.mars{padding:10px;
+     }
+.mercury{padding:10px;
+        }
+.second_choice_buttons {display:flex;
+                       justify-content:space-evenly;}
+
+.final_choice{display:flex;
+        justify-content:space-evenly;
+               display:none;
+             padding:10px;}
+
+.mercury2{padding:10px;}
+.earth{padding:10px;}
+.bad_end{display:none;}
